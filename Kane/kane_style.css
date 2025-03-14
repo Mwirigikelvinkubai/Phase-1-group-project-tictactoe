@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+.board {
+    display: grid;
+    background-color: lightgrey;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px; 
+    height: 400px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #f80000;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: lightgray;
+}
+
+.status {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.restart {
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}

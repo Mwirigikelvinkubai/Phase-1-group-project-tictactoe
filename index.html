@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1>Tic Tac Toe Game!</h1>
-    <p>
-        <div class="board">
-            <div class="box">box 1 </div>
-            <div class="box">box 2 </div>
-            <div class="box">box 3 </div>
-            <div class="box">box 4 </div>   
-            <div class="box">box 5 </div>
-            <div class="box">box 6 </div>
-            <div class="box">box 7 </div>
-            <div class="box">box 8 </div>
-            <div class="box">box 9 </div>
-        </div>
-    </p>
+    <div class="board">
+      <div class="box" data-index="0"></div>
+      <div class="box" data-index="1"></div>
+      <div class="box" data-index="2"></div>
+      <div class="box" data-index="3"></div>
+      <div class="box" data-index="4"></div>
+      <div class="box" data-index="5"></div>
+      <div class="box" data-index="6"></div>
+      <div class="box" data-index="7"></div>
+      <div class="box" data-index="8"></div>
+    </div>
+    <p class="status">Player 1's turn</p>
+    <button class="restart">Restart Game</button>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-```
